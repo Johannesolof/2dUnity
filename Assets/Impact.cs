@@ -18,7 +18,7 @@ public class Impact : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        //if (other.tag.Equals("Block"))
-        //    ;
+        if (other.tag.Equals("Block"))
+            ;
     }
 }
